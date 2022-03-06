@@ -34,7 +34,8 @@ function use () {
     source "\$cp_config_directory/\$1.sh" && \
     echo "Language settings have been changed."
   else
-    print -P "%F{red}\$cp_config_directory/\$1.sh%f does not exist."
+    print -P "%F{red}\$cp_config_directory/\$1.sh%f does not exist." && \
+    exit 1
   fi
 }
 EOS

@@ -34,7 +34,8 @@ function use () {
     source "\$cp_config_directory/\$1.sh" && \
     echo "Language settings have been changed."
   else
-    echo -e "\033[0;31m\$cp_config_directory/\$1.sh\033[0m does not exist."
+    echo -e "\033[0;31m\$cp_config_directory/\$1.sh\033[0m does not exist." && \
+    exit 1
   fi
 }
 EOS
