@@ -14,13 +14,13 @@ $ cd cp-multilang-config
 bash をお使いの方は [`install.bash`](https://github.com/naskya/cp-multilang-config/blob/main/install.bash) を、
 
 ```sh
-$ bash install.bash
+$ /install.bash
 ```
 
 zsh をお使いの方は [`install.zsh`](https://github.com/naskya/cp-multilang-config/blob/main/install.zsh) を実行します。
 
 ```sh
-$ zsh install.zsh
+$ ./install.zsh
 ```
 
 # 設定
