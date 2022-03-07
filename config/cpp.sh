@@ -10,7 +10,7 @@ alias cx="g++ -std=gnu++17 -o a -DLOCAL $IFLAGS $DFLAGS $WFLAGS main.cpp"
 alias fx="g++ -std=gnu++17 -o a -DLOCAL $IFLAGS $OFLAGS $WFLAGS main.cpp"
 
 # use debugger (gdb)
-alias db="gdb ./a --eval-command=\"run < in_1.txt\""
+alias db="gdb ./a --eval-command=\"start < in_1.txt\""
 
 # check (not optimized)
 function check () {

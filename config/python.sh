@@ -1,5 +1,5 @@
 # use debugger (pdb)
-alias db="python3 -m pdb main.py < in_1.txt"
+alias db="python3 -m pdb main.py"
 
 # check
 function check () {
