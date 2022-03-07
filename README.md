@@ -14,7 +14,7 @@ $ cd cp-multilang-config
 bash をお使いの方は [`install.bash`](https://github.com/naskya/cp-multilang-config/blob/main/install.bash) を、
 
 ```sh
-$ /install.bash
+$ ./install.bash
 ```
 
 zsh をお使いの方は [`install.zsh`](https://github.com/naskya/cp-multilang-config/blob/main/install.zsh) を実行します。
