@@ -1,5 +1,5 @@
 IFLAGS="-isystem /path/to/boost/library -I/path/to/atcoder/library"
-DFLAGS="-O0 -g3 -D_GLIBCXX_DEBUG -D_FORTIFY_SOURCE=2"
+DFLAGS="-O0 -g3 -D_GLIBCXX_DEBUG -D_FORTIFY_SOURCE=2 -fsanitize=address,undefined"
 OFLAGS="-O2"
 WFLAGS="-Wall -Wextra -Wcast-qual -Wconversion -Wdisabled-optimization -Wdouble-promotion -Wfloat-equal -Wformat -Wformat-signedness -Winit-self -Winvalid-pch -Wlogical-op -Wpointer-arith -Wredundant-decls -Wshadow -Wunsafe-loop-optimizations -Wno-unknown-pragmas"
 
