@@ -23,7 +23,7 @@ touch "$HOME/.cplanguage" && \
 cat << EOS > "$HOME/.cpconfig" && \
 cp_config_directory="`dirname ${0:a}`/config"
 
-if [[ -s \$HOME/.cplanguage ]]; then
+if [[ -s "\$HOME/.cplanguage" ]]; then
   source "\$cp_config_directory/\$(cat \$HOME/.cplanguage).sh"
 fi
 
